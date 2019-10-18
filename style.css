@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	/* line-height: 1;
+  background: url("moon.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+background-color: black;
+ font-family: 'Fascinate Inline', cursive;
+
+}
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* .background{
+    background-color: rgba(0,0,0,.8)
+} */
+ header{
+   text-align: center;
+   font-size: 30px;
+   padding-top:20px;
+   width:100%;
+ }
+ header h1{
+   color: white;
+   font-weight:400;
+   font-size: 60px;
+
+ }
+ header p{
+   margin-top: 10px;
+
+   margin-bottom: 51px;
+   color:white;
+ }
+ header strong{
+   font-weight: bold;
+   text-decoration: underline;
+   color: red;
+   font-size: 40px;
+
+ }
+ .scoreboard{
+   border: 4px dotted red;
+   width: 50%;
+   margin: auto;
+    border-radius: 26px;
+    margin-bottom: 20px;
+ }
+ .scoreboard h2{
+   font-size: 50px;
+
+   border-radius: 8px;
+   text-align: center;
+   width: 49%;
+  margin-left: 21%;
+  font-weight: bold;
+  color: white;
+ }
+ .board{
+   margin:auto;
+   width:50%;
+ }
+ .board h2{
+   text-align: center;
+   font-weight: bold;
+   color: white;
+    font-size: 70px;
+ }
+ table{
+   text-align: center;
+   width:50%;
+   margin-left: 18%;
+ }
+ table tr{
+   width:30%;
+   font-size: 60px;
+   color: white;
+ }
+ .options{
+   text-align: center;
+   width: 90%;
+    margin-bottom: 43px;
+    margin-left: 3%;
+ }
+ .options h2{
+   font-size: 40px;
+   color:white;
+   margin-bottom: 20px;
+ }
+ button{
+   width:15%;
+   height: auto;
+   margin-left: 2%;
+   border-radius: 5px;
+   border: 2px dotted red;
+   font-size: 50px;
+   color:white;
+   background-color: black;
+   outline: none;
+
+ }
+ #status{
+   font-size: 50px;
+   text-align:center;
+   color: white;
+   font-weight: bold;
+ }
